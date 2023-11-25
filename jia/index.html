@@ -1,4 +1,6 @@
 ---
 layout: layout.html
 ---
-Content.
+{% for post in collections.post %}
+<h2>{{ post.data.title }}</h2>
+{% endfor %}
