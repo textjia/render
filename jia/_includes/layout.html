@@ -1,11 +1,45 @@
 <html>
     <head>
         <title>11ty blog</title>
+        <style>
+            p { 
+           font-family: Courier; 
+       }
+
+       a:link {
+ color: white;
+ text-decoration: none;
+}
+
+/* visited link */
+
+
+a:visited {
+ color: white;
+ text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+ color: white;
+ text-decoration: none;
+}
+
+/* selected link */
+a:active {
+ color: white;
+ text-decoration: none;
+}
+       </style>
     </head>
-    <body>
-        <header>
-            <h1>{{ title | default: "My Blog" }}</h1>
-        </header>
+    <body bgcolor="000000">
+        <p><font color="ffffff">textjia
+            <br>...<br>
+            Cell: <a href="Tel:8134155571">(813) 415-5571</a><br>Email: <a href="mailto:textjia@yahoo.com">textjia@yahoo.com</a><br><br>
+            [projects]
+            <br>
+            
+        
         <main>
             {{ content }}
         </main>

@@ -1,4 +1,4 @@
 ---
-title: My second post
+title: 11ty
 ---
-L L cool J is hard as hell
+github / 11ty / render

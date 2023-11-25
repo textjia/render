@@ -1,4 +1,4 @@
 ---
-title: Post Title
+title: textjia.github.io
 ---
-notes is radical
+git hub pages
