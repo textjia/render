@@ -1,5 +1,5 @@
 ---
 title: 11ty
-jurl: 
+jurl: https://jiawp.neocities.org/11ty.svg
 ---
 github / 11ty / render
