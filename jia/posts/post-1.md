@@ -2,4 +2,4 @@
 title: textjia.github.io
 jurl: https://jiawp.neocities.org/jiasvg.svg
 ---
-git hub pages
+[GitHub Pages - textjia](https://textjia.github.io)
