@@ -1,5 +1,5 @@
 ---
 title: textjia.github.io
-jurl:
+jurl: https://jiawp.neocities.org/jiasvg.svg
 ---
 git hub pages
