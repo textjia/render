@@ -1,6 +1,6 @@
 ---
 title: textjia on fiverr
-jurl: https://jiawp.neocities.org/fiverr.svg
+jurl: https://jiawp.neocities.org/fiverr001.png
 date: 2023-11-01
 ---
-[textjia fiverr profile](https://fiverr.com/textjia)
+[neuralman fiverr profile](https://fiverr.com/neuralman)
