@@ -1,8 +1,15 @@
 ---
 layout: layout.html
 ---
+[a]
 {% for post in collections.post reversed %}
 {% if post.data.jtxt == "a" %}
+<a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>&nbsp;
+{% endif %}
+{% endfor %}
+[b]
+{% for post in collections.post reversed %}
+{% if post.data.jtxt == "b" %}
 <a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>&nbsp;
 {% endif %}
 {% endfor %}
