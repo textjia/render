@@ -1,6 +1,9 @@
 ---
-title: PayPal
-jurl: https://jiawp.neocities.org/pp001.png
-date: 2023-11-29
+title: new dojo page up with 3 new lessons
+jurl: 
+date: 2023-11-30
+jkey: blog
 ---
-[PayPal Donation for Jia Huang](https://www.paypal.com/donate/?hosted_button_id=TJWYUQ8YZZG9C)
+the new textjia dojo page is up with 3 new lessons >>>
+
+[textjia dojo](https://jiawp.neocities.org/pro-dojo)
