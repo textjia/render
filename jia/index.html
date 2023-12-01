@@ -4,14 +4,14 @@ layout: layout.html
 <p id=jiawhite>[new]</p>
 {% for post in collections.post reversed %}
 {% if post.data.jkey == "new" %}
-<a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>&nbsp;
+<a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>
 {% endif %}
 {% endfor %}
 <BR>
     <p id="jiawhite">[tech]</p>
 {% for post in collections.post reversed %}
 {% if post.data.jkey == "tech" %}
-<a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>&nbsp;
+<a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>
 {% endif %}
 {% endfor %}
 <br><br>
