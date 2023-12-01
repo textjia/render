@@ -8,9 +8,9 @@ jkey: blog
 
 added if loop to filter by key to use one template for different collections on same page - very powerful stuff
 
-    {% for item in items %}
-      {% if item.status == "published" %}
-      <h2>{{ item.title }}</h2>
-      {% endif %}
-    {% endfor %}
+> {% for item in items %}
+>     {% if item.status == "published" %}
+>      <h2>{{ item.title }}</h2>
+>      {% endif %}
+>   {% endfor %}
 
