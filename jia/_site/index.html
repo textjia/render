@@ -134,6 +134,20 @@
                 font-family: 'Courier New', Courier, monospace;
                 padding: 3px
             }
+            .code-container {
+      position: relative;
+    }
+
+    /* Style for the copy button */
+    .copy-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #007bff;
+      color: #fff;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
 
 
 
@@ -333,6 +347,12 @@
               }
             }
           </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new ClipboardJS('.copy-button');
+    });
+  </script>
         
     </body>
 </html>

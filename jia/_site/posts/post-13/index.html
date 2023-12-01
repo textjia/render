@@ -134,6 +134,20 @@
                 font-family: 'Courier New', Courier, monospace;
                 padding: 3px
             }
+            .code-container {
+      position: relative;
+    }
+
+    /* Style for the copy button */
+    .copy-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #007bff;
+      color: #fff;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
 
 
 
@@ -162,15 +176,8 @@
         
         <main id="jiamain">
             
-                <table border=0 cellpadding=3 bgcolor=ffffff>
-<tr>
-<td>
-<p id=jiawhite>
-[Certifications - Jia Huang](https://jiawp.neocities.org/fiverr-cert)
-</p>
-</td>
-</tr>
-</table>
+                <p><a href="https://jiawp.neocities.org/fiverr-cert">Certifications - Jia Huang</a></p>
+
             
             
         </main>
@@ -188,6 +195,12 @@
               }
             }
           </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new ClipboardJS('.copy-button');
+    });
+  </script>
         
     </body>
 </html>

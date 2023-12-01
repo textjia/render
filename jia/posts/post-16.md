@@ -16,3 +16,16 @@ added if loop to filter by key to use one template for different collections on 
     {% endfor %}
 
 
+<div class="code-container">
+                <button class="copy-button" data-clipboard-target="#code-block">Copy</button>
+                <pre>
+                  <code id="code-block"><font color =ffffff>
+{% for item in items %}
+    {% if item.status == "published" %}
+    <h2>{{ item.title }}</h2>
+    {% endif %}
+{% endfor %}
+                    </font>
+                  </code>
+                </pre>
+              </div>
