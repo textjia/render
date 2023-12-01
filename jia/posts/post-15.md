@@ -9,7 +9,8 @@ jkey: blog
 <td>
 <p id=jiawhite>
 the new textjia dojo page is up with 3 new lessons >>> <br><br>
-[textjia dojo](https://jiawp.neocities.org/pro-dojo)
+
+<a href=https://jiawp.neocities.org/pro-dojo>textjia dojo</a>
 </p>
 </td>
 </tr>
