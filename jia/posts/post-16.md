@@ -8,5 +8,5 @@ jkey: blog
 
 added if loop to filter by key to use one template for different collections on same page - very powerful stuff
 
-[filter code](https://jiawp.neocities.org/filter.txt)
+<ins>[filter code](https://jiawp.neocities.org/filter.txt)</ins>
 
