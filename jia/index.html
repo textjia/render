@@ -1,25 +1,33 @@
 ---
 layout: layout.html
 ---
-[new]<br>
+<p id=jia003>[new]</p>
 {% for post in collections.post reversed %}
 {% if post.data.jkey == "new" %}
 <a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>&nbsp;
 {% endif %}
 {% endfor %}
-<BR><BR>
-[tech]<br>
+<BR>
+    <p id="jia003">[tech]</p>
 {% for post in collections.post reversed %}
 {% if post.data.jkey == "tech" %}
 <a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>&nbsp;
 {% endif %}
 {% endfor %}
 <br><br>
-[blog]<br>
+
+
+
+
+<p id="jia003">[blog]<br><br>
+<table border=0 width="600" id="jia004">
 
 {% for post in collections.post reversed %}
 {% if post.data.jkey == "blog" %}
-<a href="{{ post.url }}">{{ post.data.date | date: "%m/%d/%y"}} - {{ post.data.title }}</a>
+<tr>
+    <td><a href="{{ post.url }}">{{ post.data.date | date: "%m/%d/%y"}} - {{ post.data.title }}</a></td>
+</tr>
+
 {% endif %}
 {% endfor %}
 
