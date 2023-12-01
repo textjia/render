@@ -1,14 +1,14 @@
 ---
 layout: layout.html
 ---
-<p id=jia003>[new]</p>
+<p id=jiawhite>[new]</p>
 {% for post in collections.post reversed %}
 {% if post.data.jkey == "new" %}
 <a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>&nbsp;
 {% endif %}
 {% endfor %}
 <BR>
-    <p id="jia003">[tech]</p>
+    <p id="jiawhite">[tech]</p>
 {% for post in collections.post reversed %}
 {% if post.data.jkey == "tech" %}
 <a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>&nbsp;
@@ -19,7 +19,7 @@ layout: layout.html
 
 
 
-<p id="jia003">[blog]<br><br>
+<p id="jiawhite">[blog]<br><br>
 <table border=0 width="600" id="jia004">
 
 {% for post in collections.post reversed %}
