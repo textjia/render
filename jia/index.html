@@ -16,12 +16,9 @@ layout: layout.html
 <a href="{{ post.url }}"><img src="{{ post.data.jurl }}" border="0" alt="{{ post.data.title }}" width="64" height="64"></a>
 {% endif %}
 {% endfor %}
-<br><br>
+<br>
 
-
-
-
-<p id="jiawhite">[blog]<br><br>
+<p id="jiawhite">[blog]</p><br><br>
 <table border=0 width="600" id="jia004">
 
 {% for post in collections.post reversed %}
@@ -32,10 +29,11 @@ layout: layout.html
 
 {% endif %}
 {% endfor %}
+</table>
 
-<br><br>
+<br>
 
-<p id=jiawhite>[new]</p>
+<p id=jiawhite>[alpha]</p>
 {% assign sortedCollection  = collections.post | sort: 'data.title' %}
 {% for post in sortedCollection %}
 
