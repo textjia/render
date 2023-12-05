@@ -6,4 +6,4 @@ jkey: blog
 ---
 the new textjia dojo page is up with 3 new lessons >>> 
 
-[textjia dojo](https://jiawp.neocities.org/pro-dojo)
+<ins>[textjia dojo](https://jiawp.neocities.org/pro-dojo)</ins>
