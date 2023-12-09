@@ -1,6 +1,6 @@
 ---
 title: candy news network
-jurl: https://jiawp.neocities.org/candynews.png
+jurl: https://jiawp.neocities.org/cnnnews.png
 date: 2023-12-09
 jkey: new
 ---
